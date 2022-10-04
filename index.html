@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tray Information</title>
+    <link rel="stylesheet" href="../Manoj/base.css">
+    <!--<link rel="stylesheet" href="../ext-3.3.1/resources/css/ext-all.css">-->
+    <link rel = "stylesheet" type = "text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-crisp/resources/theme-crisp-all.css" / >
+    <script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/ext-all.js"> </script>
+
+
+</head>
+<body onload="myLoad()">
+
+<div id="header" >Tracking system for storage system </div>
+
+<div class="grid-container" >
+<table><tr><td>
+    <table><tr>
+  <td><button id="grid-item1" onclick="myFunction(this)" value='0_6'>0_6</button></td>
+  <td><button id="grid-item2" onclick="myFunction(this)" value='2_6'><div>2_6</div></button></td>
+  <td><button id="grid-item3" onclick="myFunction(this)" value='4_6'><div>4_6</div></button></td>
+  <td><button id="grid-item4" onclick="myFunction(this)" value='6_6'><div>6_6</div></button></td>
+  <td><button id="grid-item5" onclick="myFunction(this)" value='8_6'><div>8_6</div></button></td>
+  <td><button id="grid-item6" onclick="myFunction(this)" value='10_6'><div>10_6</div></button></td>
+  <td><button id="grid-item7" onclick="myFunction(this)" value='12_6'><div>12_6</div></button></td></tr><tr>
+  <td><button id="grid-item8" onclick="myFunction(this)" value='0_5'><div>0_5</div></button></td>
+  <td><button id="grid-item9" onclick="myFunction(this)" value='2_5'><div>2_5</div></button></td>
+  <td><button id="grid-item10" onclick="myFunction(this)" value='4_5'><div>4_5</div></button></td>
+  <td><button id="grid-item11" onclick="myFunction(this)" value='6_5'><div>6_5</div></button></td>
+  <td><button id="grid-item12" onclick="myFunction(this)" value='8_5'><div>8_5</div></button></td>
+  <td><button id="grid-item13" onclick="myFunction(this)" value='10_5'><div>10_5</div></button></td>
+  <td><button id="grid-item14" onclick="myFunction(this)" value='12_5'><div>12_5</div></button></td></tr><tr>
+  <td><button id="grid-item15" onclick="myFunction(this)" value='0_4'><div>0_4</div></button></td>
+  <td><button id="grid-item16" onclick="myFunction(this)" value='2_4'><div>2_4</div></button></td>
+  <td><button id="grid-item17" onclick="myFunction(this)" value='4_4'><div>4_4</div></button></td>
+  <td><button id="grid-item18" onclick="myFunction(this)" value='6_4'><div>6_4</div></button></td>
+  <td><button id="grid-item19" onclick="myFunction(this)" value='8_4'><div>8_4</div></button></td>
+  <td><button id="grid-item20" onclick="myFunction(this)" value='10_4'><div>10_4</div></button></td>
+  <td><button id="grid-item21" onclick="myFunction(this)" value='12_4'><div>12_4</div></button></td></tr><tr>
+  <td><button id="grid-item22" onclick="myFunction(this)" value='0_3'><div>0_3</div></button></td>
+  <td><button id="grid-item23" onclick="myFunction(this)" value='2_3'><div>2_3</div></button></td>
+  <td><button id="grid-item24" onclick="myFunction(this)" value='4_3'><div>4_3</div></button></td>
+  <td><button id="grid-item25" onclick="myFunction(this)" value='6_3'><div>6_3</div></button></td>
+  <td><button id="grid-item26" onclick="myFunction(this)" value='8_3'><div>8_3</div></button></td>
+  <td><button id="grid-item27" onclick="myFunction(this)" value='10_3'><div>10_3</div></button></td>
+  <td><button id="grid-item28" onclick="myFunction(this)" value='12_3'><div>12_3</div></button></td></tr><tr>
+  <td><button id="grid-item29" onclick="myFunction(this)" value='0_2'><div>0_2</div></button></td>
+  <td><button id="grid-item30" onclick="myFunction(this)" value='2_2'><div>2_2</div></button></td>
+  <td><button id="grid-item31" onclick="myFunction(this)" value='4_2'><div>4_2</div></button></td>
+  <td><button id="grid-item32" onclick="myFunction(this)" value='6_2'><div>6_2</div></button></td>
+  <td><button id="grid-item33" onclick="myFunction(this)" value='8_2'><div>8_2</div></button></td>
+  <td><button id="grid-item34" onclick="myFunction(this)" value='10_2'><div>10_2</div></button></td>
+  <td><button id="grid-item35" onclick="myFunction(this)" value='12_2'><div>12_2</div></button></td></tr><tr>
+  <td><button id="grid-item36" onclick="myFunction(this)" value='0_1'><div>0_1</div></button></td>
+  <td><button id="grid-item37" onclick="myFunction(this)" value='2_1'><div>2_1</div></button></td>
+  <td><button id="grid-item38" onclick="myFunction(this)" value='4_1'><div>4_1</div></button></td>
+  <td><button id="grid-item39" onclick="myFunction(this)" value='6_1'><div>6_1</div></button></td>
+  <td><button id="grid-item40" onclick="myFunction(this)" value='8_1'><div>8_1</div></button></td>
+  <td><button id="grid-item41" onclick="myFunction(this)" value='10_1'><div>10_1</div></button></td>
+  <td><button id="grid-item42" onclick="myFunction(this)" value='12_1'><div>12_1</div></button></td></tr><tr>
+  <td><button id="grid-item43" onclick="myFunction(this)" value='0_0'><div>0_0</div></button></td>
+  <td><button id="grid-item44" onclick="myFunction(this)" value='2_0'><div>2_0</div></button></td>
+  <td><button id="grid-item45" onclick="myFunction(this)" value='4_0'><div>4_0</div></button></td>
+  <td><button id="grid-item46" onclick="myFunction(this)" value='6_0'><div>6_0</div></button></td>
+  <td><button id="grid-item47" onclick="myFunction(this)" value='8_0'><div>8_0</div></button></td>
+  <td><button id="grid-item48" onclick="myFunction(this)" value='10_0'><div>10_0</div></button></td>
+  <td><button id="grid-item49" onclick="myFunction(this)" value='12_0'><div>12_0</div></button></td>
+        </tr></table></td>
+    <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+   <td><table><tr>
+  <td><button id="grid-item50" onclick="myFunction(this)" value='1_6'><div>1_6</div></button></td>
+  <td><button id="grid-item51" onclick="myFunction(this)" value='3_6'><div>3_6</div></button></td>
+  <td><button id="grid-item52" onclick="myFunction(this)" value='5_6'><div>5_6</div></button></td>
+  <td><button id="grid-item53" onclick="myFunction(this)" value='7_6'><div>7_6</div></button></td>
+  <td><button id="grid-item54" onclick="myFunction(this)" value='9_6'><div>9_6</div></button></td>
+  <td><button id="grid-item55" onclick="myFunction(this)" value='11_6'><div>11_6</div></button></td>
+  <td><button id="grid-item56" onclick="myFunction(this)" value='13_6'><div>13_6</div></button></td></tr><tr>
+  <td><button id="grid-item57" onclick="myFunction(this)" value='1_5'><div>1_5</div></button></td>
+  <td><button id="grid-item58" onclick="myFunction(this)" value='3_5'><div>3_5</div></button></td>
+  <td><button id="grid-item59" onclick="myFunction(this)" value='5_5'><div>5_5</div></button></td>
+  <td><button id="grid-item60" onclick="myFunction(this)" value='7_5'><div>7_5</div></button></td>
+  <td><button id="grid-item61" onclick="myFunction(this)" value='9_5'><div>9_5</div></button></td>
+  <td><button id="grid-item62" onclick="myFunction(this)" value='11_5'><div>11_5</div></button></td>
+  <td><button id="grid-item63" onclick="myFunction(this)" value='11_5'><div>13_5</div></button></td></tr><tr>
+  <td><button id="grid-item64" onclick="myFunction(this)" value='1_4'><div>1_4</div></button></td>
+  <td><button id="grid-item65" onclick="myFunction(this)" value='3_4'><div>3_4</div></button></td>
+  <td><button id="grid-item66" onclick="myFunction(this)" value='5_4'><div>5_4</div></button></td>
+  <td><button id="grid-item67" onclick="myFunction(this)" value='7_4'><div>7_4</div></button></td>
+  <td><button id="grid-item68" onclick="myFunction(this)" value='9_4'><div>9_4</div></button></td>
+  <td><button id="grid-item69" onclick="myFunction(this)" value='11_4'><div>11_4</div></button></td>
+  <td><button id="grid-item70" onclick="myFunction(this)" value='13_4'><div>13_4</div></button></td></tr><tr>
+  <td><button id="grid-item71" onclick="myFunction(this)" value='1_3'><div>1_3</div></button></td>
+  <td><button id="grid-item72" onclick="myFunction(this)" value='3_3'><div>3_3</div></button></td>
+  <td><button id="grid-item73" onclick="myFunction(this)" value='5_3'><div>5_3</div></button></td>
+  <td><button id="grid-item74" onclick="myFunction(this)" value='7_3'><div>7_3</div></button></td>
+  <td><button id="grid-item75" onclick="myFunction(this)" value='9_3'><div>9_3</div></button></td>
+  <td><button id="grid-item76" onclick="myFunction(this)" value='11_3'><div>11_3</div></button></td>
+  <td><button id="grid-item77" onclick="myFunction(this)" value='13_3'><div>13_3</div></button></td></tr><tr>
+  <td><button id="grid-item78" onclick="myFunction(this)" value='1_2'><div>1_2</div></button></td>
+  <td><button id="grid-item79" onclick="myFunction(this)" value='3_2'><div>3_2</div></button></td>
+  <td><button id="grid-item80" onclick="myFunction(this)" value='5_2'><div>5_2</div></button></td>
+  <td><button id="grid-item81" onclick="myFunction(this)" value='7_2'><div>7_2</div></button></td>
+  <td><button id="grid-item82" onclick="myFunction(this)" value='9_2'><div>9_2</div></button></td>
+  <td><button id="grid-item83" onclick="myFunction(this)" value='11_2'><div>11_2</div></button></td>
+  <td><button id="grid-item84" onclick="myFunction(this)" value='13_2'><div>13_2</div></button></td></tr><tr>
+  <td><button id="grid-item85" onclick="myFunction(this)" value='1_1'><div>1_1</div></button></td>
+  <td><button id="grid-item86" onclick="myFunction(this)" value='3_1'><div>3_1</div></button></td>
+  <td><button id="grid-item87" onclick="myFunction(this)" value='5_1'><div>5_1</div></button></td>
+  <td><button id="grid-item88" onclick="myFunction(this)" value='7_1'><div>7_1</div></button></td>
+  <td><button id="grid-item89" onclick="myFunction(this)" value='9_1'><div>9_1</div></button></td>
+  <td><button id="grid-item90" onclick="myFunction(this)" value='11_1'><div>11_1</div></button></td>
+  <td><button id="grid-item91" onclick="myFunction(this)" value='13_1'><div>13_1</div></button></td></tr><tr>
+  <td><button id="grid-item92" onclick="myFunction(this)" value='1_0'><div>1_0</div></button></td>
+  <td><button id="grid-item93" onclick="myFunction(this)" value='3_0'><div>3_0</div></button></td>
+  <td><button id="grid-item94" onclick="myFunction(this)" value='5_0'><div>5_0</div></button></td>
+  <td><button id="grid-item95" onclick="myFunction(this)" value='7_0'><div>7_0</div></button></td>
+  <td><button id="grid-item96" onclick="myFunction(this)" value='9_0'><div>9_0</div></button></td>
+  <td><button id="grid-item97" onclick="myFunction(this)" value='11_0'><div>11_0</div></button></td>
+  <td><button id="grid-item98" onclick="myFunction(this)" value='13_0'><div>13_0</div></button></td>
+    </tr></table>
+  </td>
+ </tr></table>
+</div>
+
+<!--<script type="text/javascript" src="../ext-3.3.1/adapter/ext/ext-base.js" value=''></script>
+<script type="text/javascript" src="../ext-3.3.1/ext-all.js" value=''></script>
+<script type="text/javascript" src="../ext-3.3.1/adapter/ext/ext-base-debug.js" value=''></script>-->
+
+<script src="../Manoj/common.js"></script>
+
+</body>
+</html>
